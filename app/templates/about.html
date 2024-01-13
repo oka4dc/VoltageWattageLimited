@@ -1,0 +1,343 @@
+{% extends "base.html" %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Car Care auto-mobile html5 bootstrap web template | webthemez</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="" />
+<meta name="author" content="http://webthemez.com" />
+<!-- css -->
+<link rel="stylesheet" href="{{url_for('static', filename="css/bootstrap.min.css")}}">
+<link rel="stylesheet" href="{{url_for('static', filename="css/fancybox/jquery.fancybox.css")}}">
+<link rel="stylesheet" href="{{url_for('static', filename="css/jcarousel.css")}}">
+<link rel="stylesheet" href="{{url_for('static', filename="css/flexslider.css")}}">
+<link rel="stylesheet" href="{{url_for('static', filename="css/style.css")}}">
+
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+	{% block content %}
+	<div id="wrapper">
+
+		<!-- start header -->
+		<header>
+			<div class="navbar navbar-default navbar-static-top">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button> 
+						<a class="navbar-brand" href="index1.html"><img src="{{url_for('static', filename='img/slides/logo.PNG')}}" alt="logo"/></a>
+					</div>
+					<div class="navbar-collapse collapse ">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="index1.html">Home</a></li> 
+							<li><a href="about.html">About Us</a></li>
+							<li><a href="services.html">Services</a></li>
+							<li><a href="portfolio.html">Portfolio</a></li>
+							<li><a href="contact.html">Contact</a></li>   
+						</ul>
+					</div>
+				</div>
+			</div>
+		</header>
+		<section id="inner-headline">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<h2 class="pageTitle">About Us</h2>
+				</div>
+			</div>
+		</div>
+		</section>
+		<section id="content">
+		<div class="container">
+						
+						<div class="about">
+						
+							<div class="row"> 
+								<div class="col-md-12">
+									<div class="about-logo">
+										<h3>We are awesome <span class="color">TEAM</span></h3>
+										<p>Our team is comprised of experts in all faucets to ensure your business is a success. Our current business relationships afford us a global end to end scope of services for the telecommunications industry</p>
+									</div>
+									<a href="#" class="btn btn-color">Read more</a>  
+								</div>
+							</div>
+							
+							<hr
+							<div class="row">
+								<div class="col-md-4">
+									<!-- Heading and para -->
+									<div class="block-heading-two">
+										<h3><span>Why Choose Us?</span></h3>
+									</div>
+									<p>Founded in 2005, Onik Global Services is a world-class telecommunication, energy,sourcing and infrastructure solutions provider.<br><br>We have a proven track record in Telecom site build, industrial cables procurement and exceeding customer demands, including completing 15,000+ wireline projects across the telecommunications ecosystem.</p>
+									<p></p>
+									
+								</div>
+								<div class="col-md-4">
+									<div class="block-heading-two">
+										<h3><span>Our Solution</span></h3>
+									</div>		
+									<!-- Accordion starts -->
+									<div class="panel-group" id="accordion-alt3">
+									 <!-- Panel. Use "panel-XXX" class for different colors. Replace "XXX" with color. -->
+									  <div class="panel">	
+										<!-- Panel heading -->
+										 <div class="panel-heading">
+											<h4 class="panel-title">
+											  <a data-toggle="collapse" data-parent="#accordion-alt3" href="#collapseOne-alt3">
+												<i class="fa fa-angle-right"></i> Site Build
+											  </a>
+											</h4>
+										 </div>
+										 <div id="collapseOne-alt3" class="panel-collapse collapse">
+											<!-- Panel body -->
+											<div class="panel-body">
+											  Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
+											</div>
+										 </div>
+									  </div>
+									  <div class="panel">
+										 <div class="panel-heading">
+											<h4 class="panel-title">
+											  <a data-toggle="collapse" data-parent="#accordion-alt3" href="#collapseTwo-alt3">
+												<i class="fa fa-angle-right"></i> Procurement
+											  </a>
+											</h4>
+										 </div>
+										 <div id="collapseTwo-alt3" class="panel-collapse collapse">
+											<div class="panel-body">
+											  Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
+											</div>
+										 </div>
+									  </div>
+									  <div class="panel">
+										 <div class="panel-heading">
+											<h4 class="panel-title">
+											  <a data-toggle="collapse" data-parent="#accordion-alt3" href="#collapseThree-alt3">
+												<i class="fa fa-angle-right"></i> telecommunications
+											  </a>
+											</h4>
+										 </div>
+										 <div id="collapseThree-alt3" class="panel-collapse collapse">
+											<div class="panel-body">
+											  Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
+											</div>
+										 </div>
+									  </div>
+									  <div class="panel">
+										 <div class="panel-heading">
+											<h4 class="panel-title">
+											  <a data-toggle="collapse" data-parent="#accordion-alt3" href="#collapseFour-alt3">
+												<i class="fa fa-angle-right"></i> Green Energy
+											  </a>
+											</h4>
+										 </div>
+										 <div id="collapseFour-alt3" class="panel-collapse collapse">
+											<div class="panel-body">
+											  Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
+											</div>
+										 </div>
+									  </div>
+									</div>
+									
+									<!-- Accordion ends -->
+									
+								</div>
+								
+								<div class="col-md-4">
+									<div class="block-heading-two">
+										<h3><span>Our Expertise</span></h3>
+									</div>								
+									<h6>Wireless Network</h6>
+									<div class="progress pb-sm">
+									  <!-- White color (progress-bar-white) -->
+									  <div class="progress-bar progress-bar-red" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+										 <span class="sr-only">60% Complete (success)</span>
+									  </div>
+									</div>
+									<h6>Managed Services</h6>
+									<div class="progress pb-sm">
+										<!-- Whitef color (progress-bar-white) -->
+										<div class="progress-bar progress-bar-red" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+										   <span class="sr-only">70% Complete (success)</span>
+										</div>
+									  </div>
+									<h6>Site Build</h6>
+									<div class="progress pb-sm">
+									  <div class="progress-bar progress-bar-green" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+										 <span class="sr-only">40% Complete (success)</span>
+									  </div>
+									</div>
+									<h6>Supply Chain Management</h6>
+									<div class="progress pb-sm">
+									  <div class="progress-bar progress-bar-lblue" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+										 <span class="sr-only">95% Complete (success)</span>
+									  </div>
+									</div>
+									<h6>5G Site Upgrade</h6>
+									<div class="progress pb-sm">
+									  <div class="progress-bar progress-bar-yellow" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%">
+										 <span class="sr-only">40% Complete (success)</span>
+									  </div>
+									</div>
+								</div>
+								
+							</div>
+							
+													 
+							 
+							<br>
+							<!-- Our Team starts -->
+					
+							<!-- Heading -->
+							<div class="block-heading-six">
+								<h4 class="bg-color">Our Team</h4>
+							</div>
+							<br>
+							
+							<!-- Our team starts -->
+							
+							<div class="team-six">
+								<div class="row">
+									<div class="col-md-3 col-sm-6">
+										<!-- Team Member -->
+										<div class="team-member">
+											<!-- Image -->
+											<img class="img-responsive"src="{{url_for('static', filename="img/team1.jpg")}}" alt="">
+											<!-- Name -->
+											<h4>John Orji</h4>
+											<span class="deg">CEO</span> 
+										</div>
+									</div>
+									<div class="col-md-3 col-sm-6">
+										<!-- Team Member -->
+										<div class="team-member">
+											<!-- Image -->
+											<img class="img-responsive"src="{{url_for('static', filename="img/team2.jpg")}}" alt="">
+											<!-- Name -->
+											<h4>Allen Ayeyemitan</h4>
+											<span class="deg">CTO</span> 
+										</div>
+									</div>
+									<div class="col-md-3 col-sm-6">
+										<!-- Team Member -->
+										<div class="team-member">
+											<!-- Image -->
+											<img class="img-responsive" src="{{url_for('static', filename="img/team3.jpg")}}" alt="">
+											<!-- Name -->
+											<h4>Idris Adenekan</h4>
+											<span class="deg">Project Manager</span> 
+										</div>
+									</div>  
+									<div class="col-md-3 col-sm-6">
+										<!-- Team Member -->
+										<div class="team-member">
+											<!-- Image -->
+											<img class="img-responsive" src="{{url_for('static', filename="img/team4.jpg")}}">
+											<!-- Name -->
+											<h4>Dennis Okafor</h4>
+											<span class="deg">Manager</span> 
+										</div>
+									</div>
+								</div>
+							</div>
+							
+							<!-- Our team ends -->
+						  
+							
+						</div>
+										
+					</div>
+		</section>
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3">
+						<div class="widget">
+							<h5 class="widgetheading">Our Contact</h5>
+							<address>
+							<strong>Onik Global Services Limited</strong><br>
+							25 Eric Moore Close, Eric Moore Surulere, Lagos, Nigeria<br>
+							 Pin-21542 NewYork US.</address>
+							<p>
+								<i class="icon-phone"></i> (+234) 0802 341 7445 - (+234) 0806 019 4450 <br>
+								<i class="icon-envelope-alt"></i> info@onikglobalservices.com
+							</p>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="widget">
+							<h5 class="widgetheading">Quick Links</h5>
+							<ul class="link-list">
+								<li><a href="#">Latest Events</a></li>
+							<li><a href="#">Terms and conditions</a></li>
+							<li><a href="#">Privacy policy</a></li>
+							<li><a href="careers.html">Careers</a></li>
+							<li><a href="contact.html">Contact us</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="widget">
+							<h5 class="widgetheading">Latest posts</h5>
+							<ul class="link-list">
+								<li><a href="#">Meeting the need of our stakeholders within the telecom space.</a></li>
+								<li><a href="#">Pan African Tower awards 100 more sites to Onik Global</a></li>
+								<li><a href="#">Infractructure management</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="widget">
+							<h5 class="widgetheading">Recent News</h5>
+							<ul class="link-list">
+								<li><a href="#">Wind-Solar power solution by onik Global Services</a></li>
+								<li><a href="#">Cable Supply contractor Approved</a></li>
+								<li><a href="#">Speedy site build and hand over</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="sub-footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="copyright">
+								<p>
+									<span>&copy; Onik Global Services 2023 All right reserved. By </span><a href="http://webthemez.com" target="_blank">WebThemez</a>
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<ul class="social-network">
+								<li><a href="#" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+								<li><a href="#" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a></li>
+								<li><a href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			</footer>
+		</div>
+		<a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
+		<!-- javascript
+			================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+			
+    {% endblock %}
+	</body>
+	</html>

@@ -1,0 +1,313 @@
+{% extends "base.html" %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Onik Global Services</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="" />
+<meta name="author" content="http://webthemez.com" />
+<!-- css -->
+<link rel="stylesheet" href="{{url_for('static', filename="css/bootstrap.min.css")}}">
+<link rel="stylesheet" href="{{url_for('static', filename="css/fancybox/jquery.fancybox.css")}}">
+<link rel="stylesheet" href="{{url_for('static', filename="css/jcarousel.css")}}">
+<link rel="stylesheet" href="{{url_for('static', filename="css/flexslider.css")}}">
+<link rel="stylesheet" href="{{url_for('static', filename="js/owl-carousel/owl.carousel.css")}}">
+<link rel="stylesheet" href="{{url_for('static', filename="css/style.css")}}">
+ 
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+	{% block content %}
+	<!-- start header -->
+	<header>
+		<div id="wrapper">
+        <div class="navbar navbar-default navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button> 
+                    <a class="navbar-brand" href="index1.html"><img src="{{url_for('static', filename='img/slides/logo100.PNG')}}" alt="Voltage & wattage Limited"/></a>
+                </div>
+                <div class="navbar-collapse collapse ">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index1.html">Home</a></li> 
+						<li><a href="about.html">About Us</a></li>
+						<li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>   
+                    </ul>
+                </div>
+            </div>
+        </div>
+	</header>
+	<!-- end header -->
+	<section id="featured">
+	 
+	<!-- Slider -->
+        <div id="main-slider" class="flexslider">
+            <ul class="slides">
+              <li>
+                <img src="{{url_for('static', filename='img/slides/tower.PNG')}}" alt="" />
+                <div class="flex-caption">   
+                    <h3>Best Service</h3> 
+					<p>Real Time Monitoring of your telecom infrastructures</p>  
+                </div>
+              </li>
+              <li>
+                <img src="{{url_for('static', filename='img/slides/fiber12.PNG')}}" alt="" />
+                <div class="flex-caption">
+                    <h3>Best In Industry</h3> 
+					<p>Fiber Deployment at its very Best</p>  
+                </div>
+              </li>
+			  <li>
+                <img src="{{url_for('static', filename='img/slides/solarwind.PNG')}}" alt="" />
+                <div class="flex-caption">
+                    <h3>Green Energy</h3> 
+					<p>Environmental friendly Energy Solutions</p>  
+                </div>
+              </li>
+			  <li>
+                <img src="{{url_for('static', filename='img/slides/cables.PNG')}}" alt="" />
+                <div class="flex-caption">
+                    <h3>Power Cables Supply</h3> 
+					<p>We can supply large volume of power cables at best prices</p>  
+                </div>
+              </li>
+            </ul>
+        </div>
+	<!-- end slider -->
+ 
+	</section>  
+	<section>
+	<div class="container">
+	<div class="row service-v1 margin-bottom-40">
+            <div class="col-md-4 md-margin-bottom-40">
+               <img class="img-responsive" src="{{url_for('static', filename="img/services11.png")}}" alt=""> 
+               <span> <h2>Turnkey Site Build Project</h2>
+                <p>We build site accross Nigeria within the fastest time frame with quality in check</p>  
+                <a href="#" class="btn more">More</a>	</span>							
+            </div>
+            <div class="col-md-4">
+                <img class="img-responsive" src= "{{url_for('static', filename="img/services2.png")}}" alt="">           
+                <span><h2>Power Equipment</h2>
+                <p>We provide full end-to-end procurement services on a never-promise-and-fail basis and we are able to deliver virtually all telecommunications & engineering services equipment and devices at the right time, quality and cost..</p>     
+ <a href="#" class="btn more">More</a>		</span>									
+            </div>   
+            <div class="col-md-4 md-margin-bottom-40">
+              <img class="img-responsive" src="{{url_for('static', filename="img/service3.PNG")}}" alt="">
+                <span><h2>Global Sourcing</h2>
+                <p>With our strong partnerships with Original Equipment Manufacturers (OEM) across the Telecommunications, Energy and Infrastructure space, we are able to source all varieties of Network, Construction and Energy Equipments in record time. </p>      
+ <a href="#" class="btn more">More</a>	</span>					
+            </div>
+        </div>
+	</div>
+	</section>
+	<section class="callaction">
+	<div class="container">
+		<div class="row">
+		<div class="col-md-4"> 
+		<img src= "{{url_for('static', filename="img/service3.JPG")}}" alt="" width="100%"/>
+		</div>
+			<div class="col-md-8">
+				<div><h1><span>Hello,<span class="blue_text">Welcome!!</span></span></h1><span class="clear spacer_responsive_hide_mobile " style="height:13px;display:block;"></span><p></p>
+				<p>Founded in 2005, voltage & wattage is a world-class telecommunication, energy,sourcing and infrastructure solutions provider.<br><br>We have a proven track record in Telecom site build, Global sourcing and exceeding customer demands, including completing 15,000+ wireline projects across the telecommunications ecosystem.</p>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	</section>
+	<section id="content">
+	
+	
+	<div class="container">
+		
+	     <div class="row">
+							<div class="col-md-7">
+								<!-- Heading and para -->
+								<div class="block-heading-two">
+									<h3><span>Why Choose Us?</span></h3>
+								</div>
+								<p>Founded in 2005, Onik Global Services is a world-class telecommunication, energy,sourcing and infrastructure solutions provider.<br><br>We have a proven track record in Telecom site build, industrial cables procurement and exceeding customer demands, including completing 15,000+ wireline projects across the telecommunications ecosystem.</p>
+								<p></p>
+								
+								
+						  
+					
+					
+							</div>
+							<div class="col-xs-12 col-sm-12 col-md-5">
+                 
+                    <div class="latest-post-wrap pull-left"> 
+						<h3><span>latest news</span></h3>
+                        
+                        <!--Post item--> "{{url_for('static', filename="img/news-1.png")}}">
+                        <div class="post-item-wrap pull-left col-sm-6 col-md-12 col-xs-12">
+                            <img src= "{{url_for('static', filename="img/news-1.jpg")}}" class="img-responsive post-author-img" alt="">
+                            	<div class="post-content1 pull-left col-md-9 col-sm-9 col-xs-8">
+        	                        <div class="post-title pull-left"><a href="#">New Site Build Rollout</a></div>
+        	                        <div class="post-meta-top pull-left">
+        	                            <ul>
+        	                            <li><i class="fa fa-calendar"></i>18 DEC 2022</li> 
+        	                            </ul>
+        	                        </div>
+                                </div>
+                                <div class="post-content2 pull-left">                   
+                                	<p>Pan African Tower awards 100 more sites to Onik Global<br>
+                                	<span class="post-meta-bottom"><a href="#">More...</a></span></p>
+                         		</div>
+                         </div>
+                          
+                         <a href="#" class="dept-details-butt posts-showall">Show All</a>
+                            
+                        </div>
+                    </div>
+	
+	
+							
+						</div>
+	
+	  <div class="row">
+		  </div>
+	</div>
+	
+	</section>
+	<div class="testimonial-area">
+    <div class="testimonial-solid">
+        <div class="container"> 
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="">
+                        <a href="#"></a>
+                    </li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1" class="">
+                        <a href="#"></a>
+                    </li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2" class="active">
+                        <a href="#"></a>
+                    </li>
+                    <li data-target="#carousel-example-generic" data-slide-to="3" class="">
+                        <a href="#"></a>
+                    </li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item">
+                        <p>I will choose Onik Global for speedy project delivery even in remote areas.</p>
+                        <p>
+                            <b>- Mark John - CTO--PAT -</b>
+                        </p>
+                    </div>
+                    <div class="item">
+                        <p>Even at shortest time frame Onik Global delivered at best quality and least price.</p>
+                        <p>
+                            <b>- Jaison Warner - Procurement lead MANTRAC -</b>
+                        </p>
+                    </div>
+                    <div class="item active">
+                        <p>Site build with quality in place.</p>
+                        <p>
+                            <b>- Tony Antonio - CTO Prime infracture -</b>
+                        </p>
+                    </div>
+                    <div class="item">
+                        <p>Blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi.</p>
+                        <p>
+                            <b>- Leena Doe - Daystar Power Energy Solution -</b>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+	<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3">
+				<div class="widget">
+					<h5 class="widgetheading">Our Contact</h5>
+					<address>
+					<strong>Onik Global Services Limited</strong><br>
+					25 Eric Moore Close, Eric Moore Surulere, Lagos, Nigeria<br>
+					 Pin-21542 NewYork US.</address>
+					<p>
+						<i class="icon-phone"></i> (+234) 0802 341 7445 - (+234) 0806 019 4450 <br>
+						<i class="icon-envelope-alt"></i> info@onikglobalservices.com
+					</p>
+				</div>
+			</div>
+			<div class="col-lg-3">
+				<div class="widget">
+					<h5 class="widgetheading">Quick Links</h5>
+					<ul class="link-list">
+						<li><a href="#">Latest Events</a></li>
+						<li><a href="#">Terms and conditions</a></li>
+						<li><a href="#">Privacy policy</a></li>
+						<li><a href="careers.html">Careers</a></li>
+						<li><a href="contact.html">Contact us</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-3">
+				<div class="widget">
+					<h5 class="widgetheading">Latest posts</h5>
+					<ul class="link-list">
+						<li><a href="#">Meeting the need of our stakeholders within the telecom space.</a></li>
+						<li><a href="#">Pan African Tower awards 100 more sites to Onik Global</a></li>
+						<li><a href="#">Infractructure management</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-3">
+				<div class="widget">
+					<h5 class="widgetheading">Recent News</h5>
+					<ul class="link-list">
+						<li><a href="#">Wind-Solar power solution by onik Global Services</a></li>
+						<li><a href="#">Cable Supply contractor Approved</a></li>
+						<li><a href="#">Speedy site build and hand over</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="sub-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="copyright">
+						<p>
+							<span>&copy; Onik Global Services 2023 All right reserved. By </span><a href="http://webthemez.com" target="_blank">WebThemez</a>
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<ul class="social-network">
+						<li><a href="#" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="#" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a></li>
+						<li><a href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	</footer>
+</div>
+<a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
+<!-- javascript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+
+	{% endblock %}
+</body>
+</html>
